@@ -1,11 +1,11 @@
-package com.academy.docker;
+package com.example.vulnerable;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class Dummy3Test {
+public class Dummy2Test {
 
     @Test
     public void dummyTestForBoolean(){

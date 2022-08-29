@@ -1,11 +1,11 @@
-package com.academy.docker;
+package com.example.vulnerable;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class Dummy2Test {
+public class Dummy1Test {
 
     @Test
     public void dummyTestForBoolean(){
@@ -34,8 +34,8 @@ public class Dummy2Test {
     @Test
     public void dummyTestForFloat(){
 
-        Float f = 0.4F;
-        assertEquals( 0.4F,f);
+        float f = 0.5F;
+        assertEquals( 0.5f,f);
 
     }
 
